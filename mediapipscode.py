@@ -91,8 +91,7 @@ VIDEOS=[("Play vid1","Handgesturevid1.mp4",0.05,0.3),
         ("Play vid2","handgesturevid2.mkv",0.05,0.35)
 ]
 
-Label(window,text="2020-MC-19 Zainab Ishtiaq",font=("Calibri",20),bg="pink").place(relx=0.75,rely=0.2)
-Label(window,text="2020-MC-35 NoorUlAein",font=("Calibri",20),bg="pink").place(relx=0.75,rely=0.25)
+Label(window,text="IT-4-80 Mandar Hajare",font=("Calibri",20),bg="red").place(relx=0.75,rely=0.2)
 #---------------------
 vidadd=StringVar() # will have to make a function with main loop so it doesnt crash, chech izzi;s code
 vidadd.set("Handgesturevid1.mp4") #settin default video
